@@ -1,0 +1,31 @@
+# ─── Private source files ─────────────────────────────────────────────────────
+dashboard.py
+market_intel.py
+
+# ─── Private directories ──────────────────────────────────────────────────────
+scraper/
+scraper/apply_logs/
+resumes/
+scripts/
+
+# ─── Data / DB ────────────────────────────────────────────────────────────────
+jobs.db
+*.db-journal
+
+# ─── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv/
+venv/
+env/
+
+# ─── Dev notes ────────────────────────────────────────────────────────────────
+TECHNICAL_NOTES_*.md
+
+# ─── OS / Editor ──────────────────────────────────────────────────────────────
+.DS_Store
+.idea/
+.vscode/
+*.swp
